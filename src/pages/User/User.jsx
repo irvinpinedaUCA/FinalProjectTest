@@ -103,7 +103,7 @@ export default function User() {
 
     <div className="flex flex-row h-full">
 
-      <nav className="bg-gray-100 border-2 border-gray-300 w-20  justify-between flex flex-col visible md:invisible ">
+      <nav className="bg-gray-100 border-2 border-gray-300 w-20  justify-between flex flex-col invisible  md:visible ">
         <div className="mt-10 mb-10">
           <a href="#">
             <img
