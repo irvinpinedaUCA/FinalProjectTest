@@ -137,7 +137,7 @@ export default function User() {
       <div className="md:px-16 py-4 text-gray-700 bg-gray-200  w-screen">
 
         {/* SHOW ALL THE POST */}
-        <div clasName="flex justify-center visible md:invisible">
+        <div clasName="flex justify-center invisible  md:visible">
         <div className="w-full mb-8 visible md:invisible" onClick={logoutHandler}>
                 <spam >
                   <img className="fill-current h-5 w-5 text-gray-300 mx-auto hover:text-green-500" src={Logoutimg} alt="" />
